@@ -6,7 +6,12 @@ namespace GitSandBox
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! from B1");
+            Console.WriteLine("Hello World!");
+            Test();
+        }
+        static void Test()
+        {
+            Console.WriteLine("Test 1");
         }
     }
 }
